@@ -1,0 +1,12 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: discoveryservuce #microservice 의 고유한 이름 설정
+
+
+eureka:
+  client:
+    register-with-eureka: false #eureka client dependency 를 갖고 있어서 자신의 정보도 eureka server 에 등록하지 않도록 설정
+    fetch-registry: false
